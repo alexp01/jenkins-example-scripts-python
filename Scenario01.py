@@ -4,7 +4,7 @@
 3. Select a value in each DropDown and then clean it.
 '''
 
-from Python.web_Zest.pages.common.main import Driver
+from pages.common.main import Driver
 from pages.main_page import Main_page
 from pages.telecharger_les_horaires import Telecharger_les_horaires
 from conf.conf_file import *
