@@ -8,7 +8,7 @@ pipeline {
     }
     stage('hello') {
       steps {
-        sh 'python all_tests.py'
+        sh 'python -u all_tests.py  --command check_artfiacts'
       }
     }
   }
